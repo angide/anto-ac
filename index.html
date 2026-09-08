@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Service AC profesional, cepat, rapi, dan terpercaya. Cuci AC, isi freon, perbaikan, instalasi, dan maintenance.">
+  <title>Service AC Profesional | Anto AC</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Butuh layanan service atau pasang AC?</span>
+      <span>⏰ Buka: 08.00 Pagi - 21.00 Malam</span>
+    </div>
+  </div>
+
+  <header class="header" id="home">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Anto AC Home"><img class="brand-logo" src="assets/logo-anto-ac.png" alt="Anto AC"></a>
+      <button class="menu-toggle" aria-label="Buka menu">☰</button>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Service</a>
+        <a href="#areas">Area Layanan</a>
+        <a href="#pricing">Daftar Harga</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="#booking">Konsultasi Gratis</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">KENYAMANAN ANDA PRIORITAS UTAMA KAMI</div>
+          <h1>Service AC<br><span>Handal &amp; Terpercaya</span></h1>
+          <p>Perawatan, perbaikan, cuci AC, isi freon, hingga instalasi. Teknisi berpengalaman siap datang ke lokasi Anda dengan layanan cepat dan rapi.</p>
+
+          <form class="booking-card" id="booking">
+            <div class="form-title">Jadwalkan Service AC</div>
+            <div class="form-grid">
+              <label>Kota
+                <select id="city">
+                  <option value="">Pilih Kota</option>
+                  <option>Yogyakarta</option><option>Sleman</option><option>Bantul</option>
+                  <option>Klaten</option><option>Solo</option><option>Magelang</option>
+                </select>
+              </label>
+              <label>Layanan
+                <select id="service">
+                  <option value="">Pilih Layanan</option>
+                  <option>Cuci AC</option><option>Isi / Tambah Freon</option>
+                  <option>Perbaikan AC</option><option>Instalasi AC</option><option>Maintenance</option>
+                </select>
+              </label>
+              <label class="full">Alamat
+                <input id="address" type="text" placeholder="Contoh: Jl. Melati No. 10">
+              </label>
+              <label class="full">Jadwal
+                <input id="schedule" type="text" placeholder="Contoh: Besok, jam 10.00–12.00">
+              </label>
+            </div>
+            <button class="btn btn-whatsapp" type="button" onclick="sendWhatsApp()">Chat WhatsApp <span>→</span></button>
+          </form>
+        </div>
+
+        <div class="hero-art">
+          <div class="hero-circle"></div>
+          <div class="snow s1">✦</div><div class="snow s2">✧</div><div class="snow s3">❄</div>
+          <div class="ac-unit">
+            <div class="ac-top"></div>
+            <div class="ac-front">
+              <div class="ac-brand">DINGINPRO</div>
+              <div class="ac-display">24°</div>
+              <div class="ac-vents"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="technician">
+            <div class="head"></div><div class="body"></div><div class="arm"></div>
+          </div>
+          <div class="hero-badge"><strong>10+</strong><span>Tahun<br>Pengalaman</span></div>
+        </div>
+      </div>
+      <div class="hero-wave"></div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefits-grid">
+        <div><b>⚙ Diagnosa &amp; Perbaikan Lengkap</b><span>Pemeriksaan cepat untuk menemukan dan mengatasi masalah AC.</span></div>
+        <div><b>◷ Layanan Darurat 24/7</b><span>Siap membantu kapan pun AC Anda bermasalah.</span></div>
+        <div><b>♧ Solusi AC Hemat Energi</b><span>Perawatan yang membantu menjaga performa dan efisiensi.</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container two-col">
+        <div class="photo-card about-photo"><div class="photo-overlay"><span>PROFESSIONAL</span></div></div>
+        <div>
+          <div class="eyebrow">TENTANG KAMI</div>
+          <h2>Teknisi Ahli,<br><span>AC Dingin &amp; Nyaman Setiap Saat.</span></h2>
+          <p>Kami memastikan setiap pekerjaan AC dilakukan dengan standar terbaik. Proses yang teliti, hasil yang rapi, dan kenyamanan pelanggan adalah prioritas kami.</p>
+          <div class="experience"><strong>10+</strong><div>Lebih dari 10 tahun pengalaman<br>melayani kebutuhan AC Anda.</div></div>
+          <div class="contact-row"><div><small>24/7 Panggilan</small><strong>0857-2980-6358</strong></div><a class="btn btn-primary" href="#booking">Hubungi Sekarang</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head"><div><div class="eyebrow">LAYANAN TERPOPULER KAMI</div><h2>Perbaikan AC Berkualitas<br>yang Bisa Anda Andalkan</h2></div><a href="#pricing" class="text-link">Lihat semua layanan →</a></div>
+        <div class="service-grid">
+          <article class="service-card featured"><div class="service-icon">❄</div><h3>Cuci AC</h3><p>Membersihkan indoor dan outdoor agar AC kembali dingin, bersih, dan bekerja lebih efisien.</p><a href="#booking">Pesan sekarang →</a></article>
+          <article class="service-card"><div class="service-icon">◌</div><h3>Isi &amp; Tambah Freon</h3><p>Pengecekan tekanan, deteksi kebocoran, dan pengisian refrigerant sesuai kebutuhan.</p><a href="#booking">Pesan sekarang →</a></article>
+          <article class="service-card"><div class="service-icon">⚙</div><h3>Perbaikan AC</h3><p>Penanganan AC tidak dingin, bocor, berisik, mati total, dan berbagai masalah lainnya.</p><a href="#booking">Pesan sekarang →</a></article>
+          <article class="service-card"><div class="service-icon">＋</div><h3>Instalasi AC</h3><p>Pemasangan AC baru dengan jalur rapi dan proses terukur untuk hasil optimal.</p><a href="#booking">Pesan sekarang →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why">
+      <div class="container">
+        <div class="center-head"><div class="eyebrow">MENGAPA MEMILIH KAMI?</div><h2>Perbaikan Berkualitas Untuk<br>Kenyamanan Ruangan Anda</h2><p>Setiap pekerjaan dilakukan dengan teliti menggunakan metode yang tepat agar hasil optimal dan tahan lama.</p></div>
+        <div class="stats"><div><strong>4.9/5</strong><span>Skor Kepercayaan Kami</span></div><div><strong>2.000+</strong><span>Pelanggan Dilayani</span></div><div><strong>10+</strong><span>Tahun Pengalaman</span></div></div>
+        <div class="features"><div><b>Harga Bersahabat</b><span>Layanan profesional dengan harga transparan.</span></div><div><b>Layanan Darurat 24/7</b><span>Siap diandalkan saat Anda membutuhkan.</span></div><div><b>Ahli di Semua Bidang</b><span>Rumah, kantor, toko, kos, dan bisnis.</span></div></div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container">
+        <div class="center-head light"><div class="eyebrow">PROSES LAYANAN</div><h2>Kesejukan Rumah,<br>Kenyamanan Keluarga</h2></div>
+        <div class="process-grid">
+          <div><span>01</span><h3>Konsultasi</h3><p>Dapatkan solusi AC dari teknisi berpengalaman.</p></div>
+          <div><span>02</span><h3>Pilih Layanan</h3><p>Tentukan layanan yang sesuai kebutuhan AC Anda.</p></div>
+          <div><span>03</span><h3>Layanan Dilaksanakan</h3><p>Perbaikan dan perawatan cepat serta profesional.</p></div>
+          <div><span>04</span><h3>Laporan Lengkap</h3><p>Terima hasil pekerjaan dan tips perawatan AC.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner"><div><div class="eyebrow">AC ANDA BERMASALAH?</div><h2>Jadwalkan Sekarang!</h2><p>AC nyaman &amp; dingin, hanya sekali klik.</p></div><a class="btn btn-light" href="#booking">Dapatkan Penawaran →</a></div>
+    </section>
+
+    <section class="section team">
+      <div class="container"><div class="center-head"><div class="eyebrow">TIM KAMI</div><h2>Kenali Teknisi Profesional Kami</h2><p>Solusi AC terpercaya dengan pengerjaan rapi dan bertanggung jawab.</p></div>
+        <div class="team-grid">
+          <div class="person"><div class="avatar">BS</div><h3>Bagus Setiawan</h3><span>Technician</span></div>
+          <div class="person"><div class="avatar">RA</div><h3>Rizal Ashari</h3><span>Technician</span></div>
+          <div class="person"><div class="avatar">AK</div><h3>Adi Kurniawan</h3><span>Technician</span></div>
+          <div class="person"><div class="avatar">AS</div><h3>Andi Saputra</h3><span>Technician</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container"><div class="section-head"><div><div class="eyebrow">TESTIMONI</div><h2>Pendapat Pelanggan<br>Mengenai Layanan Kami</h2></div><div class="rating">★★★★★ <b>4.9/5</b></div></div>
+        <div class="review-grid">
+          <article><div class="quote">“</div><p>Teknisi datang tepat waktu, komunikatif, dan hasil cuci AC sangat rapi. Setelah diservice, AC kembali dingin.</p><b>— Asep, Karyawan</b></article>
+          <article><div class="quote">“</div><p>Respon admin cepat dan teknisinya ramah. Penjelasan mengenai kondisi AC juga sangat membantu.</p><b>— Sarif, Pembisnis</b></article>
+          <article><div class="quote">“</div><p>Pelayanannya memuaskan. Pengerjaan bersih dan AC yang sebelumnya bau sekarang kembali nyaman.</p><b>— Gina, Karyawan</b></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container"><div class="center-head"><div class="eyebrow">GALLERY PROJECT</div><h2>Hasil Pekerjaan Kami</h2></div>
+        <div class="gallery-grid"><div class="gallery-item g1"><span>Service AC</span></div><div class="gallery-item g2"><span>Cleaning</span></div><div class="gallery-item g3"><span>Instalasi</span></div><div class="gallery-item g4"><span>Maintenance</span></div></div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container two-col faq-layout">
+        <div><div class="eyebrow">ADA YANG INGIN DITANYAKAN?</div><h2>Kirim pertanyaan<br>atau lihat FAQ kami.</h2><p>Berikut beberapa pertanyaan yang paling sering ditanyakan pelanggan.</p></div>
+        <div class="accordion">
+          <details open><summary>Kapan waktu terbaik melakukan perawatan AC?</summary><p>Sebaiknya AC dirawat setiap 3–6 bulan, tergantung intensitas pemakaian, kondisi ruangan, dan lingkungan.</p></details>
+          <details><summary>Apa tanda AC perlu diperbaiki?</summary><p>Beberapa tanda umum adalah AC kurang dingin, aliran udara lemah, air menetes, suara aneh, bau tidak sedap, atau listrik terasa lebih boros.</p></details>
+          <details><summary>Berapa lama biasanya perbaikan AC?</summary><p>Perbaikan ringan dapat selesai dalam beberapa jam. Kerusakan komponen besar dapat membutuhkan waktu lebih lama setelah diagnosa.</p></details>
+          <details><summary>Lebih baik memperbaiki atau mengganti AC?</summary><p>Keputusan bergantung pada usia unit, kondisi komponen, frekuensi kerusakan, dan biaya perbaikan. Teknisi kami dapat membantu mengevaluasinya.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="container"><div class="center-head"><div class="eyebrow">DAFTAR HARGA SERVICE AC</div><h2>Harga Transparan &amp; Bersahabat</h2><p>Harga dapat disesuaikan berdasarkan kondisi unit dan lokasi pekerjaan.</p></div>
+        <div class="table-wrap"><table><thead><tr><th>No</th><th>Layanan</th><th>Harga Mulai</th></tr></thead><tbody>
+          <tr><td>1</td><td>Cuci AC 0.5 – 1 PK</td><td>Rp75.000</td></tr><tr><td>2</td><td>Cuci AC 1.5 – 2 PK</td><td>Rp85.000</td></tr>
+          <tr><td>3</td><td>Cuci AC Inverter 0.5 – 2 PK</td><td>Rp135.000</td></tr><tr><td>4</td><td>Tambah Freon 0.5 – 1 PK</td><td>Rp275.000</td></tr>
+          <tr><td>5</td><td>Tambah Freon 1.5 – 2 PK</td><td>Rp375.000</td></tr><tr><td>6</td><td>Isi Freon 0.5 – 1 PK</td><td>Rp375.000</td></tr>
+          <tr><td>7</td><td>Isi Freon 1.5 – 2 PK</td><td>Rp475.000</td></tr><tr><td>8</td><td>Vakum AC</td><td>Rp250.000</td></tr>
+          <tr><td>9</td><td>Pasang AC 0.5 – 1 PK</td><td>Rp350.000</td></tr><tr><td>10</td><td>Bongkar Pasang AC</td><td>Rp450.000</td></tr>
+          <tr><td>11</td><td>Flushing Evaporator</td><td>Rp275.000</td></tr><tr><td>12</td><td>Pengecekan AC</td><td>Rp65.000</td></tr>
+        </tbody></table></div>
+      </div>
+    </section>
+
+    <section class="section areas" id="areas">
+      <div class="container"><div class="center-head"><div class="eyebrow">AREA LAYANAN</div><h2>Siap Datang ke Lokasi Anda</h2></div>
+      <div class="area-list"><span>Yogyakarta</span><span>Sleman</span><span>Bantul</span><span>Kulon Progo</span><span>Gunungkidul</span><span>Klaten</span><span>Solo</span><span>Magelang</span></div></div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#home"><img class="brand-logo footer-logo" src="assets/logo-anto-ac.png" alt="Anto AC"></a><p>Layanan service, perbaikan, instalasi, dan maintenance AC profesional untuk rumah maupun bisnis.</p></div>
+      <div><h4>Useful Link</h4><a href="#about">About Us</a><a href="#services">Services</a><a href="#pricing">Daftar Harga</a><a href="#gallery">Gallery</a></div>
+      <div><h4>Layanan</h4><a href="#booking">Pemasangan AC</a><a href="#booking">Service AC</a><a href="#booking">Perbaikan AC</a><a href="#booking">Cuci AC</a></div>
+      <div><h4>Hubungi Kami</h4><p>📞 0857-2980-6358</p><p>✉ halo@antoac.id</p><p>📍 Yogyakarta &amp; sekitarnya</p></div>
+    </div>
+    <div class="copyright">© 2026 Anto AC. All Rights Reserved.</div>
+  </footer>
+
+  <a class="floating-wa" href="#booking" aria-label="Chat WhatsApp">◉</a>
+  <script src="script.js"></script>
+</body>
+</html>
