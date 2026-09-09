@@ -20,5 +20,5 @@ Desain dibuat sebagai website static mandiri dengan struktur landing page servic
 
 ## Identitas awal
 - Brand: Anto AC
-- WhatsApp: 0857-2980-6358
+- WhatsApp: 08133-474-8004
 - Logo: `assets/logo-anto-ac.png`
